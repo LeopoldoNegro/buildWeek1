@@ -1,6 +1,6 @@
 .leopoldo{
     background-image: url("../images/header.jpg");
-    height: 70vh;
+    height: 55vh;
 }
 
 nav{
@@ -107,3 +107,139 @@ nav{
     color: #ff530a;
 }
 
+.titolimenu{
+    font-size: 20px;
+    font-style: bold;
+}
+
+.prezzi{
+    float: right;
+    color: #9D9D9D;
+}
+
+.testomenu{
+    color: #9D9D9D;
+    padding-bottom: 50px;
+}
+
+.hrprezzo{
+    text-decoration: dotted;
+}
+
+/* riky*/
+
+.contactus{
+    padding: 70px 0px;
+    display: block;
+}
+
+.containerp{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+    line-height: 20px;
+}
+
+
+.our{
+    text-align: center;
+    font-size: 1.8 rem;
+    font-weight: bold;
+}
+
+.our span{
+    color: orangered;
+    font-size: 2.5rem;
+}
+
+.hr{
+    width: 400px;
+}
+
+.signup{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.signup span{
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+/*form*/
+.form{
+    line-height: 15px;
+}
+
+.name .fname{
+    width: 1300px;
+    height: 50px;
+}
+
+.email .mail{
+    width: 1300px;
+    height: 50px;
+}
+
+.button{
+    background-color: orangered;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 15 12 6 12;
+    margin-right: 190px;
+    font-weight: bold;
+    width: 450px;
+    height: 50px;
+   float: right;
+}
+
+/*FOOTER*/
+#footer{
+    padding: 70px 0px;
+    
+    box-sizing: border-box;
+}
+
+.containerf{
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    box-sizing: border-box;
+    
+}
+
+
+
+.info h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.info h3 span{
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+.info h4{
+    color: orangered;
+}
+
+.latest h3{
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+
+.latest span {
+    color: orangered;
+    font-size: 1.3rem;
+}
+
+
+.containerf{
+    display: flex;
+    
+    align-content: space-between;
+}
