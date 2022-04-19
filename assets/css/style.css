@@ -1,6 +1,6 @@
 .leopoldo{
     background-image: url("../images/header.jpg");
-    height: 55vh;
+    height: 70vh;
 }
 
 nav{
@@ -28,6 +28,10 @@ nav{
 #blog h2{
     padding: 40px;
     font-size: 3rem;
+}
+
+#blog span{
+    color: #ff530a;
 }
 
 .container-blog{
@@ -126,8 +130,28 @@ nav{
     text-decoration: dotted;
 }
 
-/* riky*/
+.moreinfo{
+    float: right;
+    text-decoration: none;
+    border: 1px solid #ff530a;
+    color: #ff530a;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
 
+.moreinfo:hover{
+    background-color: #ff530a;
+    color: white;
+}
+
+/* riky*/
+body{
+    margin-left: 15px;
+    margin-right: 15px;
+    line-height: 1.4rem;
+}
 .contactus{
     padding: 70px 0px;
     display: block;
