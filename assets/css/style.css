@@ -23,6 +23,14 @@ nav{
     width: 100vw;
     text-align: center;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    opacity: 0.8;
+}
+
+#blog span {
+    color: #ff530a;
 }
 
 #blog h2{
@@ -30,13 +38,12 @@ nav{
     font-size: 3rem;
 }
 
-#blog span{
-    color: #ff530a;
-}
-
 .container-blog{
     padding-top: 40px;
     padding-bottom: 80px;
+    position: relative;
+    width: 100%;
+
 }
 .post{
     display: flex;
@@ -47,11 +54,15 @@ nav{
     display: flex;
     flex-direction: column;
     padding: 20px 35px;
-    height: 180px;
     background-color: white;
     width: 50%;
     justify-content: space-around;
-
+    box-sizing: border-box;
+    
+}
+.pic img{
+    width: 100%;
+    height: 100%;
 }
 
 #blog h3{
@@ -70,9 +81,34 @@ nav{
     display: flex;
     flex-direction: row;
     width: 70%;
-    align-items: center;
-    margin-left: 20%;
+    margin-left: 15%;
 }
+
+button{
+    position: absolute;
+    width: 300px;
+    right: 23.2%;
+    background-color: #ff530a;
+    height: 80px;
+}
+
+button:hover{
+    background-color: transparent;
+}
+
+@media screen and (max-width:700px) {
+    .post{
+        display: flex;
+        flex-direction: column;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .recipe{
+        width: 100%;
+    }
+}
+
 
 
 /*gabriele*/
