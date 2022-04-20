@@ -1,0 +1,19 @@
+@media screen and (max-width:700px) {
+    .post{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .recipe{
+        width: 100%;
+    }
+    .pic{
+        width: 100%;
+    }
+    .pic img{
+        height: 100%;
+    }
+}
