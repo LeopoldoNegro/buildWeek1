@@ -193,15 +193,25 @@
 
 /* simo blog*/
 #blog{
-    background-image: url(../images/overlay-pattern.png), url(../images/overlay-pattern2.png), url("../images/blog/blog-bg.jpg");
+    background-image: url("../images/blog/blog-bg.jpg");
     width: 100%;
     text-align: center;
-    background-repeat: no-repeat, no-repeat;
-    background-size: cover, cover;
-    background-attachment: fixed, fixed;
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-size: cover, cover, cover;
+    background-attachment: fixed, fixed, fixed;
     position: relative;
     z-index: 10;
     padding-bottom: 80px;
+}
+#blog::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.9;
+    content: "";
+    background-image: url(../images/overlay-pattern2.png)
 }
 
 #blog span {

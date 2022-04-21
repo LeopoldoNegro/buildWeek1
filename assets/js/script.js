@@ -24,10 +24,10 @@ function reveal(){
 
   for(var i = 0; i < reveals.length; i++){
     var windowheight = window.innerHeight;
-    var revealtop = reveals[i].getBoundingClientRect().top;
+    var revealtop = reveals[i].getBoundingClientRect().top; //sua posizione dall'inizio della nostra viewport
     var revealpoint = 150;
 
-    if(revealtop < windowheight - revealpoint){
+    if(revealtop < windowheight - revealpoint){ //sua posizione rispetto a top < rispetto a finestra
       reveals[i].classList.add('active');
     }
   }
