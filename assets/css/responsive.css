@@ -1,4 +1,35 @@
-@media screen and (max-width:700px) {
+@media screen and (max-width:1024px) {
+    .post{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .recipe{
+        width: 50%;
+    }
+    .pic{
+        width: 50%;
+        margin-bottom: -7px;
+    }
+    .pic img{
+        height: 100%;
+    }
+    #blog-button{
+        margin-left: 0;
+        margin-top: 40px;
+        width: 50%;
+        padding: 10px 10px;
+    } 
+    .container-blog .row{
+        width: 90%;
+        
+    }   
+}
+
+@media screen and (max-width:768px) {
     .post{
         display: flex;
         flex-direction: column;
@@ -12,8 +43,114 @@
     }
     .pic{
         width: 100%;
+        margin-bottom: -7px;
     }
     .pic img{
         height: 100%;
     }
+    #blog-button{
+        margin-left: 0;
+        margin-top: 40px;
+        width: 50%;
+        padding: 10px 10px;
+    } 
+    .container-blog .row{
+        width: 90%;
+    }   
+        
+    /* form */
+    #newsletter form{
+        display: flex;
+        flex-direction: column;
+    }
+    #newsletter form button{
+        padding: 20px 40px;
+    }
+}
+
+
+
+
+/*responsive gabri*/
+
+@media screen and (max-width: 768px) {
+
+#sezionegabri{
+    font-family: myfont;
+}
+
+.primolorem{
+    padding-bottom: 15px;
+    
+    
+}
+
+    .primotitolo{
+        text-align: center;
+        font-size: 1em;
+        text-decoration: bold;
+    }
+    .contprezzo{
+       margin-bottom: 30px;
+    }
+
+.titolimenu{
+    width: 100%;
+}
+
+    .prezzi{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 100%;
+    }
+
+    .testomenu{
+        width: 100%;
+    }
+    
+    .divprezzo{
+        display: none;
+    }
+
+    
+  
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*responsive riccardo*/
+
+@media screen and (max-width:991px){
+    .rowf{
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .info li{
+        display: inline-block;
+        justify-content: space-between;
+        padding-right: 20px;
+    }
+
+    .latest {
+        width: 700px;
+     }
+
+     .icoinfo{
+         display: flex;
+         
+     }
 }
