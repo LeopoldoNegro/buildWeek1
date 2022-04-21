@@ -1,3 +1,36 @@
+/* nav */
+@media screen and (max-width:768px){
+    .menu{
+        display:flex;
+        flex-direction:column;
+        position:absolute;
+        top:100%;
+        left:0;
+        height:0;
+        overflow:hidden;
+        transition: all 1000ms ease;
+        z-index:150;
+    }
+
+    #menunav:checked + .menu{
+        height:25em;
+    }
+    #labelnav{
+        display:block;
+    }
+    .leopoldo{
+        min-height:30vh;
+    }
+    #barremenu{
+        color:#FF5333;
+    }
+
+}
+
+
+
+
+
 @media screen and (max-width:1024px) {
     .post{
         display: flex;
@@ -62,9 +95,15 @@
     #newsletter form{
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+    }
+    #newsletter form input{
+        margin-bottom: -20px;
     }
     #newsletter form button{
-        padding: 20px 40px;
+        transform: scaleX(0.7);
+        margin-left: -38px;
+        
     }
 }
 
@@ -81,7 +120,7 @@
 
 .primolorem{
     padding-bottom: 15px;
-    
+    line-height: ;
     
 }
 
@@ -112,12 +151,8 @@
         display: none;
     }
 
-    
-  
-
-    
-    
 }
+
 
 
 
@@ -138,6 +173,10 @@
         flex-direction: column;
     }
 
+    .info{
+        width: max-content;
+        margin: right 20px;;
+    }
 
     .info li{
         display: inline-block;
@@ -149,8 +188,23 @@
         width: 700px;
      }
 
-     .icoinfo{
-         display: flex;
-         
+     @media screen and (max-width: 768px)  {
+        .rowf{
+            display: flex;
+            flex-direction: column;
+        }
+    
+        .info li{
+            display: flex;
+            flex-direction: column;
+        }
+
+        .block .button{
+            width: 100%;
+        }
+
+        .end{
+            width: 100%;
+            display: inline-block;
+        }
      }
-}
