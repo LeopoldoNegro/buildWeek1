@@ -14,6 +14,12 @@
 
     #menunav:checked + .menu{
         height:25em;
+        border: 0px solid transparent;
+        background-color: rgba(255, 255, 255, 0.89);
+        width: 100%;
+        margin-top: -3px;
+        
+        
     }
     #labelnav{
         display:block;
@@ -120,7 +126,7 @@
 
 .primolorem{
     padding-bottom: 15px;
-    line-height: ;
+    
     
 }
 
@@ -175,7 +181,7 @@
 
     .info{
         width: max-content;
-        margin: right 20px;;
+        margin: right 20px;
     }
 
     .info li{
@@ -186,8 +192,8 @@
 
     .latest {
         width: 700px;
-     }
-
+    }
+}
      @media screen and (max-width: 768px)  {
         .rowf{
             display: flex;
@@ -207,4 +213,15 @@
             width: 100%;
             display: inline-block;
         }
-     }
+
+        .latest h3{
+            padding-top: 20px;
+        }
+
+        .blog{
+            padding-bottom: 25px;
+        }
+
+    }
+
+  
