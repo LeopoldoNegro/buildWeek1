@@ -76,10 +76,9 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-  #slider{
-      padding: 30px;
-      margin-left: 6%;
-  }
+ .slider-container3{
+    margin-left: 8%;
+ }
   
   .slider-container2 {
     overflow: hidden;
@@ -111,6 +110,7 @@
     }
   #slider .center{
         text-align: center;
+        padding: 30px;
     }
     
   .dot {
