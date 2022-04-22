@@ -61,6 +61,8 @@
         margin-top: 40px;
         width: 50%;
         padding: 10px 10px;
+        background-color: #ff530a;
+
     } 
     .container-blog .row{
         width: 90%;
@@ -96,7 +98,146 @@
     .container-blog .row{
         width: 90%;
     }   
+    .triangle1, .triangle2{
+        opacity: 0;
+    }
+}
+    /* slider */
+    @media screen and (max-width:500px){
+        .slider-container2{
+          width: 290px;
+        }
+        .slide-img{
+          width: 290px;
+        }
+        #slider h3{
+          width: 290px;
+          
+        }
+        #slider .next{
+          bottom: 59%;
+          right: 10%;
+  
+        }
+        #slider{
+          width: 100%;
+        }
+        #slider .center{
+            width: 290px;
+  
+        }
+  
+      }
+      @media screen and (min-width:500px) and (max-width:768px){
+        .slider-container2{
+          width: 470px;
+        }
+        .slide-img{
+          width: 235px;
+        }
+        #slider h3{
+          width: 470px;
+          
+        }
+        #slider .next{
         
+          bottom: 58%;
+          right: 10%;
+  
+        }
+        #slider{
+          width: 100%;
+        }
+        #slider .center{
+          width: 470px;
+  
+        }
+  
+  
+  
+      }
+      @media screen and (min-width:769px) and (max-width:1023px){
+        .slider-container2{
+          width: 640px;
+        }
+        .slide-img{
+          width: 320px;
+        }
+        #slider h3{
+          width: 640px;
+          
+        }
+        #slider .next{
+        
+          bottom: 18%;
+          right: 10%;
+  
+        }
+        #slider{
+          width: 100%;
+        }
+        #slider .center{
+          width: 640px;
+  
+        }
+  
+  
+  
+      }
+      @media screen and (min-width:1024px) and (max-width:1439px){
+        .slider-container2{
+          width: 860px;
+        }
+        .slide-img{
+          width: 215px;
+        }
+       #slider h3{
+          width: 860px;
+          
+        }
+        #slider .next{
+        
+          bottom: 19%;
+          right: 10%;
+  
+        }
+        #slider{
+          width: 100%;
+        }
+        #slider .center{
+          width: 860px;
+  
+        }
+  
+  
+      }
+      
+      @media screen and (min-width:1440px){
+        .slider-container2{
+          width: 1060px;
+        }
+        .slide-img{
+          width: 265px;
+        }
+        #slider h3{
+          width: 1060px;
+          
+        }
+        #slider .next{
+          
+          bottom: 19%;
+          right: 20%;
+  
+        }
+        #slider{
+          width: 100%;
+        }
+        #slider .center{
+          width: 1060px;
+  
+        }
+  
+      }
     /* form */
     #newsletter form{
         display: flex;

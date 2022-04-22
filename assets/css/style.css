@@ -12,10 +12,10 @@
 
 
 .leopoldo{
-    background-image: url(../images/overlay-pattern1.png), url(../images/overlay-pattern2.png), url(../images/header.jpg);
+    background-image: url(../images/overlay-pattern.png), url(../images/overlay-pattern2.png), url(../images/header.jpg);
     min-height: 70vh;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat, repeat,no-repeat;
+    background-size: auto, auto, cover;
     background-position: center;
     width: auto;
     display:flex;
@@ -76,68 +76,64 @@
     font-weight: 600;
     text-transform: uppercase;
 }
-#slider{
-    padding: 30px;
+  #slider{
+      padding: 30px;
+      margin-left: 6%;
+  }
   
-}
-.slider-container2 {
-  overflow: hidden;
-  position: relative;
-  width: 100%;
-}
-.slider-container{
-  width: 4240px;
-  left: 0px;
-  display: block;
-  transform: translateX(0px);
-  transition: transform 1s ease;
+  .slider-container2 {
+    overflow: hidden;
+    position: relative;
+  }
+  .slider-container{
+    width: 4240px;
+    left: 0px;
+    display: block;
+    transform: translateX(0px);
+    transition: transform 1s ease;
+  
+  }
+  .slide-img {
+      display: inline-block;
+  }
+  #slider img{
+      padding-right: 30px;
+      box-sizing: border-box;
 
-}
-.slide-img {
-    display: inline-block;
-   
-}
-#slider img{
-    padding-right: 30px;
-}
-
-
-
-.next {
+  }
+  
+  
+  #slider .next {
     cursor: pointer;
     position: absolute;
-    right: 15%;
-    bottom: 13%;
     font-size: 30px;
     color: #AA9D84;
-  }
-  .center{
-      text-align: center;
-  }
-  
-  
-
-.dot {
-    cursor: pointer;
-    height: 11px;
-    width: 11px;
-    margin: 0 2px;
-    background-color: #bbb;
-    border-radius: 50%;
-    display: inline-block;
-    transition: background-color 0.6s ease;
-  }
-  .active, .dot:hover {
-    background-color: #FF5333;
-  }
-  .anim {
-    animation-name: fade;
-    animation-duration: 1.5s;
-  }
-  @keyframes anim {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
+    }
+  #slider .center{
+        text-align: center;
+    }
+    
+  .dot {
+      cursor: pointer;
+      height: 11px;
+      width: 11px;
+      margin: 0 2px;
+      background-color: #bbb;
+      border-radius: 50%;
+      display: inline-block;
+      transition: background-color 0.6s ease;
+    }
+    .active, .dot:hover {
+      background-color: #FF5333;
+    }
+    .anim {
+      animation-name: fade;
+      animation-duration: 1.5s;
+    }
+    @keyframes anim {
+      from {opacity: .4}
+      to {opacity: 1}
+    }
 /* about-us */
 #about-us{
     padding: 100px 0px;
@@ -179,7 +175,7 @@
     position:relative;
     transform: translateY(50px);
     opacity: 0;
-    transition: all 1s ease;
+    transition: all 0.7s ease;
 }
 
 .reveal2.revealed{
@@ -188,14 +184,14 @@
 }
 
 .reveal2:nth-child(2){
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 
 .reveal2:nth-child(3){
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 .reveal2:nth-child(4){
-    transition-delay: 0.5s;
+    transition-delay: 0.3s;
 }
 
 #about-us h1 #hasTo{
